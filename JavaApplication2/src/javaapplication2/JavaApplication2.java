@@ -20,6 +20,8 @@ public class JavaApplication2 {
     }
     
    public static void fibbonacci (int bilangan) {
+       int total = 0;
+        int jumlah = 0;
        if (bilangan == 0){
            System.out.print("0");
        } else if (bilangan == 1){
@@ -33,10 +35,11 @@ public class JavaApplication2 {
                System.out.print(number + " ");
                a= b ;
                b = number;
+               total += jumlah;
                
            }
        }
-
+        System.out.println("\nJumlah = " + total);
     }
     
 }
